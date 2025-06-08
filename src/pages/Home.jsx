@@ -345,19 +345,15 @@ const Home = () => {
                               <h1 className="fs-2 mb-1">
                                 Welcome to FreshCart
                               </h1>
-                              <span>
-                                Download the app get free food &amp;{" "}
-                                <span className="text-primary">$30</span> off on
-                                your first order.
+                              <span >
+                                <p className="lead">
+                              Healthy &amp; tasty food is not easy to find. At Smith’s markets we are committed to providing 
+                              the finest quality &amp; freshest foods available so you can stay healthy and enjoy doing it.
+                                </p>
                               </span>
                             </div>
                           </div>
-                          <div className="mt-3 mt-lg-0">
-                            {/* btn */}
-                            <Link to="#" className="btn btn-dark">
-                              Download FreshCart App
-                            </Link>
-                          </div>
+                          
                         </div>
                       </div>
                     </Slide>

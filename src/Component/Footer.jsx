@@ -309,14 +309,7 @@ const Footer = () => {
             <div className="container text-center">
               <div className="footer-copy">
                 <div className="copyright">
-                  © {year} All Rights Reserved By _
-                  
-                  <Link
-                    to="https://nigammishra.github.io/nigam-portfolio/"
-                    target="_blank"
-                  >
-                     @nigammishra
-                  </Link>
+                  © {year} All Rights Reserved By Smith
                 </div>
               </div>
             </div>

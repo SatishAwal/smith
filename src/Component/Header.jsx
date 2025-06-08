@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Grocerylogo from "../images/Grocerylogo.png";
-import SmithLogo from "../images/logo_1.png";
+import SmithLogo from "../images/smith.avif";
 import menubanner from "../images/menu-banner.jpg";
 import productimage1 from '../images/product-img-1.jpg'
 import productimage2 from '../images/product-img-2.jpg'
@@ -125,7 +125,7 @@ const Header = () => {
         <div className="container  displaydesign">
           <div className="row g-4">
             <div className="col-8 col-sm-4 col-lg-9 py-2 ">
-              <input
+              {/*<input
                 className="form-control "
                 style={{ width: "100%" }}
                 list="datalistOptions"
@@ -133,7 +133,7 @@ const Header = () => {
                 placeholder="Type to search..."
               />
             </div>
-            <div className="col-4 col-sm-4 col-lg-3 py-2 d-flex" style={{ justifyContent: 'center' }}>
+            #<div className="col-4 col-sm-4 col-lg-3 py-2 d-flex" style={{ justifyContent: 'center' }}>
               {/* Button trigger modal */}
               {/* <button
             type="button"
@@ -230,18 +230,24 @@ const Header = () => {
           <Link className="navbar-brand" to="/Grocery-react/">
             <img
               src={SmithLogo}
-              style={{ width: 200, marginBottom: 10, marginLeft: "-15px" }}
-              alt="eCommerce HTML Template"
+              style={{ 
+                width: "180px",
+                height: "50px",
+                objectFit: "contain",
+                marginBottom: 10,
+                marginLeft: "-15px"
+              }}
+              alt="Smith's Market"
             />
           </Link>
-          <input
+          {/*<input
             className="form-control responsivesearch "
             list="datalistOptions"
             id="exampleDataList"
             placeholder="Type to search..."
             fdprocessedid="9icrif"
             style={{ width: "35%" }}
-          />
+          />*/}
 
           <button
             className="navbar-toggler"
@@ -775,7 +781,7 @@ const Header = () => {
         </div>
         <div className="offcanvas-body">
           <div className="alert alert-danger" role="alert">
-            You’ve got FREE delivery. Start checkout now!
+            You've got FREE delivery. Start checkout now!
           </div>
           <div>
             <div className="py-3">
